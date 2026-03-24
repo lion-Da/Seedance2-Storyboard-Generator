@@ -1,46 +1,46 @@
 ---
 name: seedance-storyboard-generator
-description: Professional AI video script and storyboard generator for Seedance 2.0 platform. Use when user asks to: (1) Convert articles/stories into video scripts, (2) Generate Seedance 2.0 storyboard prompts, (3) Plan multi-episode AI video series, (4) Create character/scene/prop generation prompts for image models like Nana Banana Pro. Input can be full novels, articles, or brief story outlines. Output includes complete screenplay with standard script format (△镜头描述+对白+OS/VO+闪回+字幕), episode breakdown, asset generation prompts, and Seedance 2.0 formatted storyboard scripts.
+description: 专业的Seedance 2.0平台AI视频脚本和分镜生成器。当用户要求：(1) 将文章/故事转换为视频脚本，(2) 生成Seedance 2.0分镜提示词，(3) 规划多集AI视频系列，(4) 为Nana Banana Pro等图像模型创建角色/场景/道具生成提示词时使用。输入可以是完整的小说、文章或简短的故事大纲。输出包括标准脚本格式的完整剧本（△镜头描述+对白+OS/VO+闪回+字幕）、剧集分解、资产生成提示词和Seedance 2.0格式的分镜脚本。
 ---
 
-# Seedance Storyboard Generator
+# Seedance 分镜生成器
 
-Expert AI script and storyboard generation system for creating professional AI video series on Seedance 2.0 platform.
+专业的AI脚本和分镜生成系统，用于在Seedance 2.0平台上创建专业的AI视频系列。
 
 ## Workflow
 
-Follow this sequential process to convert source material into production-ready video scripts:
+按照以下顺序流程将源材料转换为可用于制作的视频脚本：
 
-### 1. Analyze Input
+### 1. 分析输入
 
-**Determine input type:**
-- **Full text**: Complete novel/article requiring adaptation and episode segmentation
-- **Outline**: Brief story concept requiring full script development
+**确定输入类型：**
+- **完整文本**：需要改编和分集的完整小说/文章
+- **大纲**：需要完整脚本开发的简短故事概念
 
-**Extract core elements:**
-- Protagonist(s) and key characters
-- Central conflict and narrative arc
-- Setting/world-building elements
-- Key plot points and emotional beats
-- Core hook/selling point
+**提取核心元素：**
+- 主角和关键角色
+- 核心冲突和叙事弧线
+- 场景/世界观元素
+- 关键情节和情感节拍
+- 核心梗/卖点
 
-Ask clarifying questions if input is ambiguous or incomplete.
+如果输入模糊或不完整，请提出澄清问题。
 
-### 2. Confirm Production Parameters
+### 2. 确认制作参数
 
-**Essential questions to ask:**
+**需要询问的基本问题：**
 
-1. **Visual Style**: What visual style? (写实/动画/水墨/科幻/复古/电影感/其他)
-2. **Duration**: Total runtime? (Standard: 5 episodes × 15s each ≈ 75 seconds for short series; 20 episodes × 15s ≈ 5 minutes for full series)
-3. **Target Platform**: Aspect ratio? (16:9横屏 / 9:16竖屏 / 2.35:1电影宽屏)
-4. **Tone**: Overall emotional tone? (史诗/温馨/悬疑/欢快/忧伤等)
-5. **Core Hook**: What's the one-sentence selling point? (绝境反杀/复仇爽剧/治愈温馨/悬疑惊悚等)
+1. **视觉风格**：什么视觉风格？（写实/动画/水墨/科幻/复古/电影感/其他）
+2. **时长**：总运行时间？（标准：短剧5集×15秒≈75秒；长剧20集×15秒≈5分钟）
+3. **目标平台**：画幅比例？（16:9横屏 / 9:16竖屏 / 2.35:1电影宽屏）
+4. **基调**：整体情感基调？（史诗/温馨/悬疑/欢快/忧伤等）
+5. **核心梗**：一句话卖点是什么？（绝境反杀/复仇爽剧/治愈温馨/悬疑惊悚等）
 
-Document these parameters for consistent application throughout.
+记录这些参数，确保在整个过程中一致应用。
 
-### 3. Generate Complete Screenplay Structure
+### 3. 生成完整剧本结构
 
-**IMPORTANT: Output must follow the exact format shown below, matching "好剧本.md" quality standards.**
+**重要：输出必须严格遵循以下格式，符合"好剧本.md"的质量标准。**
 
 #### 3.1 Output Format - Part 1: Story Analysis
 
@@ -136,38 +136,38 @@ X-X [日/夜] [内/外] [场景名称]
    - Auditory: 声音描述融入镜头中
    - Tactile: 寒冷、疼痛、质感
 
-### 4. Create Asset Generation Plan
+### 4. 创建资产生成计划
 
-**Categorize and number all visual assets:**
+**对所有视觉资产进行分类和编号：**
 
-| Category | Prefix | Example | Description |
+| 类别 | 前缀 | 示例 | 描述 |
 |----------|--------|---------|-------------|
-| Characters | C01-C99 | C01 林冲·正面全身 | Multiple angles per character |
-| Scenes | S01-S99 | S01 沧州草料场·雪景 | Key locations |
-| Props | P01-P99 | P01 长枪 | Important objects |
+| 角色 | C01-C99 | C01 林冲·正面全身 | 每个角色多个角度 |
+| 场景 | S01-S99 | S01 沧州草料场·雪景 | 关键位置 |
+| 道具 | P01-P99 | P01 长枪 | 重要物品 |
 
-**Asset generation prompt format:**
+**资产生成提示词格式：**
 ```
 ### [编号] — [名称]
 
-[Style prefix], [detailed visual description in English], [technical specs]
+[风格前缀]，[详细视觉描述（中文）]，[技术规格]
 
-**Style Prefix Examples:**
+**风格前缀示例：**
 - Chinese ink wash painting style mixed with anime cel-shading
 - Cinematic photorealistic style with dramatic lighting
 - 3D Pixar-style animation rendering
 - Sci-fi cyberpunk aesthetic with neon lighting
 
-**Character differentiation:** Use distinct color schemes and visual markers for each character to ensure recognition in the chosen art style.
+**角色区分：** 为每个角色使用不同的配色方案和视觉标记，确保在所选艺术风格中能够识别。
 ```
 
-**Output format:** Organized list with unique IDs, suitable for copy-pasting into image generators.
+**输出格式：** 带有唯一ID的组织列表，适合复制粘贴到图像生成器中。
 
-### 5. Generate Seedance 2.0 Storyboard Scripts
+### 5. 生成 Seedance 2.0 分镜脚本
 
-**For each episode, produce:**
+**为每集生成：**
 
-**a. Asset Upload List**
+**a. 素材上传列表**
 ```
 | 上传位置 | 素材ID | 素材描述 |
 | 图片1 | C01 | 林冲正面全身（角色一致性参考） |
@@ -176,7 +176,7 @@ X-X [日/夜] [内/外] [场景名称]
 
 **b. Seedance Prompt (Time-axis format)**
 ```
-[英文风格描述]，[时长]，[画幅比例]，[整体氛围]
+[中文风格描述]，[时长]，[画幅比例]，[整体氛围]
 
 0-3s: [建立场景] - [镜头运动]，[详细画面描述]，[氛围营造]
 
@@ -194,18 +194,18 @@ X-X [日/夜] [内/外] [场景名称]
 ```
 
 **c. Ending Frame Description**
-- Document the final frame content for next episode continuity
-- Include: 主体、背景、光线、构图、氛围
+- 记录最后一帧内容，确保下一集的连续性
+- 包含：主体、背景、光线、构图、氛围
 
 **Camera movement keywords:** 推镜头/拉镜头/摇镜头/移镜头/跟镜头/环绕镜头/升降镜头/希区柯克变焦/一镜到底/手持晃动
 
-**For episode chaining (Ep 2+):** Start prompt with `将@视频1延长15s` and upload previous episode as video reference.
+**For episode chaining (Ep 2+):** 开始提示词使用 `将@视频1延长15s` 并上传上一集作为视频参考。
 
 ## Output Files
 
-Generate these deliverable files:
+生成以下交付文件：
 
-1. **[Title]_剧本.md** - Complete screenplay with:
+1. **[Title]_剧本.md** - 完整剧本，包含：
    - 核心梗
    - 故事梗概（背景/冲突/主角/主线/结局）
    - 一句话卖点
@@ -213,69 +213,69 @@ Generate these deliverable files:
    - 剧本大纲（起承转合）
    - 剧本正文（△镜头格式 + 对白 + OS/VO + 闪回 + 字幕）
 
-2. **[Title]_素材清单.md** - All character/scene/prop generation prompts
+2. **[Title]_素材清单.md** - 所有角色/场景/道具生成提示词
 
-3. **[Title]_E[XX]_分镜.md** - Individual episode storyboard scripts with time-axis format
+3. **[Title]_E[XX]_分镜.md** - 单集分镜脚本，包含时间轴格式
 
-## Script Writing Guidelines
+## 脚本写作指南
 
-### Pacing for 15-Second Episodes
+### 15秒剧集的节奏
 
-| Episode Type | Number of Shots | Pacing |
+| 剧集类型 | 镜头数量 | 节奏 |
 |--------------|-----------------|--------|
-| Dialogue/Emotion | 3-4 shots | 4-5秒 per shot |
-| Action/Combat | 5-7 shots | 2-3秒 per shot |
-| Montage/Sequence | 6-8 shots | 2秒 per shot |
+| 对话/情感 | 3-4个镜头 | 每个镜头4-5秒 |
+| 动作/战斗 | 5-7个镜头 | 每个镜头2-3秒 |
+| 蒙太奇/序列 | 6-8个镜头 | 每个镜头2秒 |
 
-### Emotional Progression
+### 情感 progression
 
-Each 15-second episode should have:
-- **Opening (0-3s)**: Establish emotion/atmosphere
-- **Build (3-9s)**: Rising tension or development
-- **Climax (9-12s)**: Emotional peak or key revelation
-- **Release (12-15s)**: Resolution or cliffhanger
+每个15秒剧集应包含：
+- **开场 (0-3s)**：建立情感/氛围
+- **发展 (3-9s)**：紧张感上升或情节发展
+- **高潮 (9-12s)**：情感高峰或关键揭示
+- **释放 (12-15s)**：解决或悬念
 
-### Visual Consistency
+### 视觉一致性
 
-- Maintain consistent art style across all asset prompts
-- Use unique visual markers for each character (color, silhouette, accessories)
-- Reference lighting and time of day in scene descriptions
+- 在所有资产提示词中保持一致的艺术风格
+- 为每个角色使用独特的视觉标记（颜色、轮廓、配件）
+- 在场景描述中参考光线和一天中的时间
 
-## Quality Assurance
+## 质量保证
 
-**Before finalizing:**
-- ✅ Verify all asset references (@图片X) have corresponding IDs in asset list
-- ✅ Check episode-to-episode continuity (ending frame → opening frame)
-- ✅ Ensure time-axis coverage spans complete 15 seconds
-- ✅ Validate that camera movements are feasible and logically sequenced
-- ✅ Confirm script uses proper △ format with specific camera language
-- ✅ Check that all dialogue is properly marked (os/vo/emotion)
-- ✅ Include sensory details (visual, auditory, atmosphere)
-- ✅ Verify each episode has emotional arc (opening → build → climax → release)
+**最终确定前：**
+- ✅ 验证所有资产引用（@图片X）在资产列表中有对应的ID
+- ✅ 检查剧集间的连续性（结尾帧 → 开场帧）
+- ✅ 确保时间轴覆盖完整的15秒
+- ✅ 验证相机运动是可行且逻辑顺序的
+- ✅ 确认脚本使用正确的△格式和具体的相机语言
+- ✅ 检查所有对话都正确标记（os/vo/情感）
+- ✅ 包含感官细节（视觉、听觉、氛围）
+- ✅ 验证每个剧集都有情感弧线（开场 → 发展 → 高潮 → 释放）
 
-## Reference Material
+## 参考材料
 
-For detailed Seedance 2.0 prompt patterns, templates, and best practices, see [references/seedance-manual.md](references/seedance-manual.md).
+有关详细的Seedance 2.0提示词模式、模板和最佳实践，请参阅 [references/seedance-manual.md](references/seedance-manual.md)。
 
-Key reference sections:
-- Templates 1-16 for different video types (叙事/产品/角色/风景/战争/等)
-- Camera movement quick reference
-- Atmosphere keyword library
-- Multimodal reference syntax (@图片X, @视频X, @音频X)
+关键参考部分：
+- 不同视频类型的模板1-16（叙事/产品/角色/风景/战争/等）
+- 相机运动快速参考
+- 氛围关键词库
+- 多模态引用语法（@图片X, @视频X, @音频X）
 
-## Common Pitfalls to Avoid
+## 常见陷阱避免
 
-1. **Sensitive words**: Seedance may reject content with certain terms. Avoid common triggers or use alternative phrasing.
-2. **Over-complex prompts**: Long prompts (300+ words) may have inconsistent instruction following. Prefer clarity over verbosity.
-3. **Missing continuity**: Always document ending frames and verify next episode starts with matching scene.
-4. **Inconsistent style**: Apply same visual style prefix to all asset generation prompts.
-5. **Vague camera language**: Avoid generic descriptions like "镜头移动" - use specific terms like "推镜头"、"环绕镜头"。
-6. **Missing sensory details**: Script should evoke not just visual but also sound, temperature, texture.
-7. **Flat emotional arc**: Each episode needs emotional progression, not just plot points.
+1. **敏感词**：Seedance可能会拒绝包含某些术语的内容。避免常见触发器或使用替代措辞。
+2. **过于复杂的提示词**：长提示词（300+字）可能会导致指令遵循不一致。优先考虑清晰度而非冗长。
+3. **缺少连续性**：始终记录结尾帧并验证下一集以匹配的场景开始。
+4. **风格不一致**：对所有资产生成提示词应用相同的视觉风格前缀。
+5. **模糊的相机语言**：避免使用通用描述如"镜头移动" - 使用具体术语如"推镜头"、"环绕镜头"。
+6. **缺少感官细节**：脚本应唤起不仅是视觉，还有声音、温度、质感。
+7. **平淡的情感弧线**：每个剧集需要情感进展，而不仅仅是情节点。
 
-## Example Comparison
+## 示例对比
 
-**❌ BAD (Vague outline):**
+**❌ 不好（模糊大纲）：**
 ```
 关键情节：
 - 林冲听到门外有人说话
@@ -283,7 +283,7 @@ Key reference sections:
 - 冲出去报仇
 ```
 
-**✅ GOOD (Standard script format):**
+**✅ 好（标准脚本格式）：**
 ```
 △ 林冲屏住呼吸，悄无声息地起身，贴在门缝边偷听。
 △ 门外的声音透过风雪传来，清晰可辨。
